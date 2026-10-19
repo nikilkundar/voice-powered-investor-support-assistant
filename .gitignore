@@ -1,0 +1,37 @@
+
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+
+# Local vector database
+data/chroma_db/
+
+# Local input files supplied for the assessment
+input/*.mp3
+input/*.wav
+input/*.pdf
+
+# Generated outputs
+output/*.json
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# Model caches and downloaded weights
+.cache/
+hf_cache/
+models/
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
